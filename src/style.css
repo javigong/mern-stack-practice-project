@@ -1,0 +1,90 @@
+html {
+  font-family: Helvetica, sans-serif;
+  line-height: 1.8;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgba(10, 255, 153, 0.233);
+  padding: 2rem;
+  border-radius: 0.3rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+form {
+  max-width: 421px;
+  margin: auto;
+}
+
+label {
+  display: block;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.buttons {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 1rem;
+}
+
+.app {
+  border-radius: 0.3rem;
+  border: 5px solid rgba(10, 255, 153, 0.233);
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.newPatientForm {
+  border-radius: 8px;
+  background-color: rgba(10, 165, 255, 0.233);
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.icons {
+  font-size: 1.3rem;
+}
+
+.headerRow {
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: rgba(10, 255, 153, 0.233);
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.patientRow {
+  border-radius: 8px;
+  background-color: rgba(10, 165, 255, 0.233);
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.styleRow {
+  display: grid;
+  grid-template-columns: 0.7fr 0.5fr 0.7fr 1.2fr 1fr 0.3fr 0.3fr;
+  gap: 1rem;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+  background-color: white;
+  margin: auto;
+  padding: 1rem;
+  margin-top: 30vh;
+}
